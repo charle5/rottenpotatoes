@@ -18,6 +18,14 @@ group :production do
 end
 
 
+group :development, :test do
+  gem 'jazz_hands'
+end
+
+group :console do
+  gem 'hirb'
+end
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
